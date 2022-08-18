@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="theme-color" content="#000001"/>
+    <meta property="og:image" content="https://cdn.discordapp.com/emojis/810918961918902292.gif?size=96&quality=lossless">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/810918961918902292.gif?size=96&quality=lossless" type="image/gif">
+    <meta property="og:title" content="*:☆`"/>
+    <meta property="og:description" content="sillys">
+	<script type="text/javascript" src="src/index.js"></script>
+    <script src="cursor.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="profile animate__animated animate__fadeInUp animate__fast">
+        <div class="banner">
+        <div class="banner">
+            <img src="template/000000.png" alt="banner">
+        </div>
+        </div>
+        <div class="pfp">
+            <a href="https://discord.com/users/714063027149733899/">
+        <img id="rd" alt="rd">
+            </a>
+        </div>
+
+
+
+        <div class="profile__content animate__animated animate__fadeInUp animate__fast">
+            <h3>rd<span class="profile__tag">#0007</span> 
+
+            <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/nitro.svg" width="20" height="15">
+            <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/boost1month.svg" width="18">
+
+         </h3>
+            <p> <span class="aboutme__title">ABOUT ME</span> <br> <br> <span class="aboutme__text">eu sou o diabo</span></p>
+        </div>
+
+        <div class="socials animate__animated animate__fadeInUp animate__fast">
+            <a target="_blank" href="https://twitter.com/amoloirasz" class="fab fa-twitter"></a> 
+            <a target="_blank" href="https://discord.com/users/714063027149733899z/" class="fab fa-discord"></a> 
+            <a target="_blank" href="https://steamcommunity.com/id/amotodassz/" class="fab fa-steam"></a> 
+            <a target="_blank" href="https://www.instagram.com/ehrgeizig7/" class="fab fa-instagram"></a> 
+        </div>
+
+
+        <div class="projects__button">
+            <a href="https://discord.gg/celebridades">servidor</a>
+        </div>
+    </div>
+
+
+      <div class="profilerep7 animate__animated animate__fadeInUp animate__fast">
+        <div class="banner">
+            <img src="template/000000.png" alt="banner">
+        </div>
+        <div class="pfp">
+            <a href="https://discord.com/users/925822496203239474/">
+                <img id="gicatt" alt="pfp">
+            </a>
+        </div>
+
+
+
+        <div class="profile__contentrep7 animate__animated animate__fadeInUp animate__fast">
+            <h3>gicatt<span class="profile__tag">#0001</span> 
+          
+                <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/nitro.svg" width="20" height="15">
+                <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/boost3month.svg" width="18">
+
+            </h3>
+            <p> <span class="aboutme__titlerep7">ABOUT ME</span> <br> <br> <span class="aboutme__textrep7">do rd</span></p>
+        </div>
+
+
+        <div class="socialsrep7 animate__animated animate__fadeInUp animate__fast">
+            <a target="_blank" href="https://discord.com/users/925822496203239474/" class="fab fa-discord"></a> 
+            <a target="_blank" href="https://www.instagram.com/giicatt_/" class="fab fa-instagram"></a> 
+        </div>
+
+        <div class="projects__buttonrep7">
+            <a href="https://discord.gg/panicatts">servidor</a>
+        </div>
+    </div>
+      <div class="profilealpha animate__animated animate__fadeInUp animate__fast">
+        <div class="banner">
+            <img src="template/000000.png" alt="banner">
+        </div>
+        <div class="pfp">
+            <a href="https://discord.com/users/961634910421012540/">
+                <img id="isabella" alt="pfp">
+            </a>
+        </div>
+
+
+
+        <div class="profile__contentalpha animate__animated animate__fadeInUp animate__fast">
+            <h3>isabella<span class="profile__tag">#9000</span> 
+                <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/nitro.svg" width="20" height="15">
+                <img src="https://raw.githubusercontent.com/worstbaby/badges/main/svg/boost3month.svg" width="18">
+
+            </h3>
+            <p> <span class="aboutme__titlealpha">ABOUT ME</span> <br> <br> <span class="aboutme__textalpha">-.-</span></p>
+        </div>
+
+
+        <div class="socialsalpha animate__animated animate__fadeInUp animate__fast">
+            <a target="_blank" href="https://discord.com/users/961634910421012540/" class="fab fa-discord"></a>
+            <a target="_blank" href="https://instagram.com/" class="fab fa-instagram"></a> 
+        </div>
+
+        <div class="projects__buttonalpha">
+            <a href="https://discord.gg/celebridades">servidor</a>
+        </div>
+    </div>
+
+<script>
+ var rev = "fwd";
+    function titlebar(val){
+        var msg  = "sillys";
+        var res = " ";
+        var speed = 250;
+        var pos = val;
+        msg = ""+msg+"";
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+        else {
+            if(pos > 0) {
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+    }
+    titlebar(0);
+    </script>
+
+       <audio autoplay loop>
+    <source src="plug.mp3" type="audio/mp3" />
+  </audio>
+
+
+</body>
+
+</html>
